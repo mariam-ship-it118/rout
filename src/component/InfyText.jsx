@@ -5,7 +5,8 @@ import "./InfyText.css";
 const InfyText = () => {
     return ( 
 
-        
+        <>
+        </>
      );
 }
  

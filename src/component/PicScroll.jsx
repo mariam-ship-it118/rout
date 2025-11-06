@@ -5,6 +5,7 @@ import sofaa from "../assets/air.svg";
 import wellll from "../assets/TedX.svg";
 import fireee from "../assets/base.svg";
 import cueee from "../assets/cue.svg";
+import rideing from "../assets/riding.svg";
 const PicScroll = () => {
     return ( 
 
@@ -39,7 +40,9 @@ const PicScroll = () => {
   <div class="grid-item">view-timeline</div>
   <div class="grid-item">overlay</div>
   <div class="grid-item">scale</div>
-  <div class="grid-item">ascent-override</div>
+  <div class="grid-item">
+    <img src={rideing} alt="" />
+  </div>
   <div class="grid-item">initial-letter</div>
   <div class="grid-item">inset</div>
   <div class="grid-item">@container</div>
@@ -71,7 +74,10 @@ const PicScroll = () => {
   <div class="grid-item">gap</div>
 </div>
 
+
+
      );
 }
  
+
 export default PicScroll;

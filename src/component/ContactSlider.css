@@ -1,0 +1,28 @@
+.contact-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  padding: 100px 0;
+  overflow: hidden;
+  background-color: #000; /* optional */
+}
+
+.image-box {
+  opacity: 0;
+  transform: translateX(120px);
+  transition: all 1s ease-out;
+  will-change: transform, opacity;
+}
+
+.image-box .imagee {
+  width: 400px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.slide-in .image-box {
+  opacity: 1;
+  transform: translateX(0);
+}

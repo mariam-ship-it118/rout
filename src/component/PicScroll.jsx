@@ -6,6 +6,12 @@ import wellll from "../assets/TedX.svg";
 import fireee from "../assets/base.svg";
 import cueee from "../assets/cue.svg";
 import rideing from "../assets/riding.svg";
+import clampimg from "../assets/clampimg.svg";
+import timeee from "../assets/timeee.svg";
+import hii from "../assets/hii.svg";
+import jii from "../assets/jii.svg";
+
+
 const PicScroll = () => {
     return ( 
 
@@ -20,7 +26,9 @@ const PicScroll = () => {
     <img src={soooka} alt="" />
   </div>
   <div class="grid-item">var()</div>
-  <div class="grid-item">clamp()</div>
+  <div class="grid-item">
+    <img src={clampimg} alt="" />
+    <img src={hii} alt="" /></div>
   <div class="grid-item">view()</div>
   <div class="grid-item special"><b>CSS</b></div>
   <div class="grid-item">@layer</div>
@@ -36,7 +44,9 @@ const PicScroll = () => {
   <div class="grid-item">::marker</div>
   <div class="grid-item">1cap</div>
   <div class="grid-item">scrollbar-color</div>
-  <div class="grid-item">scroll-timeline</div>
+  <div class="grid-item">
+    <img src={timeee} alt="" />
+  </div>
   <div class="grid-item">view-timeline</div>
   <div class="grid-item">overlay</div>
   <div class="grid-item">scale</div>
@@ -64,7 +74,8 @@ const PicScroll = () => {
   <div class="grid-item">:focus-visible</div>
   <div class="grid-item">:user-valid</div>
   <div class="grid-item">:fullscreen</div>
-  <div class="grid-item">:dir()</div>
+  <div class="grid-item">
+    <img src={jii} alt="" /></div>
   <div class="grid-item">caret-color</div>
   <div class="grid-item">aspect-ratio</div>
   <div class="grid-item">cross-fade()</div>

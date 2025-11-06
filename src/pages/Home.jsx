@@ -9,6 +9,7 @@ import SideText from '../component/SideText';
 import SideScroll from '../component/SideScroll';
 import PicScroll from '../component/PicScroll';
 import PicText from '../component/PicText';
+import ContactSlider from '../component/ContactSlider';
 
 
    
@@ -37,6 +38,7 @@ const Home = () => {
 <SideScroll />
 <PicScroll />
 <PicText />
+<ContactSlider />
 
 
 

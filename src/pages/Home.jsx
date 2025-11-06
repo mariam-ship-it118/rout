@@ -5,6 +5,8 @@ import ASCIIText from '../component/ASCIIText ';
 
    import AnimatedText from '../component/AnimatedText';
 import SuperCrocoAnimation from '../component/SuperCroco';
+import SideText from '../component/SideText';
+import SideScroll from '../component/SideScroll';
 
 
    
@@ -14,7 +16,7 @@ const Home = () => {
 
 
         <>
-    
+         
 
 
       <ASCIIText
@@ -26,9 +28,15 @@ const Home = () => {
        <AnimatedText text="OPTIMAL ALIGNMENT" />
        <p>MAKING MAGIC ONE DAY AT A TIME</p>
        <button className="cta-button">WORK WITH US!</button>
-
+      
        <Btn />
 <SuperCrocoAnimation />
+<SideText />
+<SideScroll />
+
+
+
+
         </>
     
 

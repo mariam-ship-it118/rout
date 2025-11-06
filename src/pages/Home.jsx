@@ -4,6 +4,7 @@ import { BrowserRouter,Link } from 'react-router-dom';
 import ASCIIText from '../component/ASCIIText ';
 
    import AnimatedText from '../component/AnimatedText';
+import SuperCrocoAnimation from '../component/SuperCroco';
 
 
    
@@ -27,7 +28,7 @@ const Home = () => {
        <button className="cta-button">WORK WITH US!</button>
 
        <Btn />
-
+<SuperCrocoAnimation />
         </>
     
 

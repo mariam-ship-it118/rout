@@ -1,0 +1,33 @@
+/* Styles for the landing section */
+.landing-section {
+  position: relative;
+  width: 100vw;
+  height: 200vh; /* Make it taller than viewport for scrollable content */
+  background-color: #f0f0f0; /* Light background; customize as needed */
+  overflow: hidden; /* Prevent overflow issues */
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/Belandingbg.svg);
+  background-size: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the SuperCroco image */
+.super-croco {
+  position: absolute;
+  width: 500px; /* Adjust size as needed */
+  height: 500px; /* Adjust size as needed */
+  transition: transform 0.1s ease-out; /* Smooth transitions for non-scroll updates */
+  pointer-events: none; /* Prevent interaction if not needed */
+}
+
+/* Optional: Add some content styling */
+.landing-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.landing-section p {
+  font-size: 1.2rem;
+}

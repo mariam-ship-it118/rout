@@ -1,0 +1,77 @@
+     /* General link styles */
+     .nav-link {
+       position: relative;
+       text-decoration: none;
+       color: #333;
+       transition: color 0.3s ease;
+       padding: 10px;
+       display: inline-block;
+     }
+
+     /* Underline animation on hover */
+     .nav-link::after {
+       content: '';
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 0;
+       height: 2px;
+       background-color: #8B4513; /* Warm color like site theme */
+       transition: width 0.3s ease;
+     }
+
+     .nav-link:hover::after {
+       width: 100%;
+       
+     }
+
+     .nav-link:hover {
+       color: #8B4513;
+     }
+
+     /* Focus for accessibility */
+     .nav-link:focus {
+       outline: 2px solid #8B4513;
+       transform: scale(1.05);
+              font-size: 3vw;
+
+     }
+
+     /* Button/CTA animation */
+     .cta-button {
+       background: #D4A574;
+       padding: 10px 20px;
+       transition: transform 0.3s ease, box-shadow 0.3s ease;
+       
+     }
+
+     .cta-button:hover {
+       transform: scale(1.05);
+       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+     }
+
+     /* Animated text (staggered letters) */
+     .animated-text span {
+       opacity: 0;
+       transform: translateY(20px);
+       display: inline-block;
+       transition: opacity 0.5s ease, transform 0.5s ease;
+              font-size: 3vw;
+       margin-left: 5%;
+       color: #f1f1f1;
+       margin-top: 5%;
+     }
+
+     .animated-text span.visible {
+       opacity: 1;
+       transform: translateY(0);
+     }
+
+     /* Respect user preferences */
+     @media (prefers-reduced-motion: reduce) {
+       .nav-link, .cta-button, .animated-text span {
+         transition: none;
+         animation: none;
+       }
+     }
+     

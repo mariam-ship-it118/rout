@@ -1,4 +1,7 @@
      import { useEffect, useState } from 'react';
+      import './AnimatedText.css';
+
+
 
      const AnimatedText = ({ text }) => {
        const [visibleLetters, setVisibleLetters] = useState([]);

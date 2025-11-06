@@ -1,0 +1,22 @@
+
+
+
+body{
+    background-color: rgb(55, 54, 54);
+}
+
+.buttn{
+    background-color: chartreuse;
+    padding: 0.5%;
+    margin-left: 5%;
+
+}
+
+.whitef{
+    color: #fff;
+    font-size: 2vw;
+    padding: 3%;
+    padding-left: 5%;
+}
+
+

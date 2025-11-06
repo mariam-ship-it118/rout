@@ -7,6 +7,7 @@ import ASCIIText from '../component/ASCIIText ';
 import SuperCrocoAnimation from '../component/SuperCroco';
 import SideText from '../component/SideText';
 import SideScroll from '../component/SideScroll';
+import PicScroll from '../component/PicScroll';
 
 
    
@@ -33,7 +34,7 @@ const Home = () => {
 <SuperCrocoAnimation />
 <SideText />
 <SideScroll />
-
+<PicScroll />
 
 
 

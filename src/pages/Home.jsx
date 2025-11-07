@@ -10,6 +10,7 @@ import SideScroll from '../component/SideScroll';
 import PicScroll from '../component/PicScroll';
 import PicText from '../component/PicText';
 import ContactSlider from '../component/ContactSlider';
+import LetterAnimation from '../component/LettersAnimation';
 
 
    
@@ -21,25 +22,25 @@ const Home = () => {
         <>
          
 
-
+{/* 
       <ASCIIText
   text='hello_world'
   enableWaves={true}
-  asciiFontSize={8}/>
+  asciiFontSize={8}/> */}
 
-  <AnimatedText text="consume & Create"  />
-       <AnimatedText text="OPTIMAL ALIGNMENT" />
-       <p>MAKING MAGIC ONE DAY AT A TIME</p>
-       <button className="cta-button">WORK WITH US!</button>
+  {/* <AnimatedText text="consume & Create"  />
+       <AnimatedText text="OPTIMAL ALIGNMENT" /> */}
+       {/* <p>MAKING MAGIC ONE DAY AT A TIME</p>
+       <button className="cta-button">WORK WITH US!</button> */}
       
-       <Btn />
+       {/* <Btn /> */}
 <SuperCrocoAnimation />
 <SideText />
 <SideScroll />
 <PicScroll />
 <PicText />
 <ContactSlider />
-
+<LetterAnimation />
 
 
         </>
